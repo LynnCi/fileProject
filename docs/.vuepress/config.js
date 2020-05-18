@@ -1,0 +1,19 @@
+module.exports = {
+  title:'文档管理',
+  description:'文档管理aa',
+  themeConfig:{
+    sidebar:[
+      {
+        title:'文件',
+        children:[
+          '/file/',
+          '/fileapi/'
+        ]
+      },
+      {
+        title:'组件',
+        children:['/components/button']
+      }
+    ]
+  }
+}
